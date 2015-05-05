@@ -18,7 +18,7 @@ function cloneRepo($repo, $isLaravel) {
 		
 		$storagePrivCmd  = sprintf("sudo -u root chmod -R 775 %s/app/storage", $dir);
 		shell_exec($storagePrivCmd);
-		fwrite(STDOUT, "\n.../app/storage permissions set.");
+		fwrite(STDOUT, "\n.../app/storage permissions set.\n");
 	}
 }
 
