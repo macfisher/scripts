@@ -25,7 +25,6 @@ function cloneRepo($repo, $isLaravel) {
 
 fwrite(STDOUT, "\nEnter Code Repo: ");
 $getRepo = trim(fgets(STDIN));
-fwrite(STDOUT, $getRepo);
 
 fwrite(STDOUT, "\nIs this a Laravel app? (Y/N): ");
 $getLaravelResp = trim(fgets(STDIN));
